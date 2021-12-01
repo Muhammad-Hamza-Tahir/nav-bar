@@ -27,11 +27,22 @@
 }
 
 .coding > span{
-    color: green;
+    color: blue;
 }
 .icons{
     display: flex;
     width: 150px;
-    
     justify-content: space-around;
+}
+.icons > i{
+    color: blue;
+}
+
+@media screen and (max-width:600px) {
+    .list > ul > li{
+        display: none;
+    }
+    .icons > i{
+          display: none;
+    }
 }
