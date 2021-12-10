@@ -39,10 +39,19 @@
 }
 
 @media screen and (max-width:600px) {
-    .list > ul > li{
-        display: none;
+    .list > ul {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 200px; */
     }
-    .icons > i{
-          display: none;
+    .icons{
+          display: flex;
+          flex-direction: column;
+    }
+    .list > ul > li{
+         margin-bottom: 50px; 
+     } 
+    .list{
+        margin-top: 200px;
     }
 }
